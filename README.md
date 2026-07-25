@@ -36,7 +36,7 @@ GPIO_01 PULSE 500
 #### Console Command Example ( Mac-Terminal )
 
 ```
-echo GPIO_01 PULSE 500 > /dev/cu.usbmodem147201
+echo GPIO_02 PULSE 500 > /dev/cu.usbmodem147201
 ```
 
 #### Console Command Example ( Windows cmd )

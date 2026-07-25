@@ -9,3 +9,6 @@
 
 # Build output
 build/
+
+# Common
+*.tmp

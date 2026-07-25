@@ -1,7 +1,8 @@
 # usbGPIOBuDDy
 
 A lightweight USB-controlled GPIO toolkit for testing, debugging and automation.
-Control GPIO over USB as simply as possible.
+
+*Control GPIO over USB as simply as possible.*
 
 
 ## Philosophy

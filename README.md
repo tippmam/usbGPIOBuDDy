@@ -28,9 +28,23 @@ Just plug it in and send human-readable commands.
 
 ## Example
 
-- GPIO_01 ON
-- GPIO_01 TOGGLE
-- GPIO_01 PULSE 500
+#### Syntax Example
+```
+GPIO_01 PULSE 500
+```
+
+#### Console Command Example ( Mac-Terminal )
+
+```
+echo GPIO_01 PULSE 500 > /dev/cu.usbmodem147201
+```
+
+#### Console Command Example ( Windows cmd )
+
+```
+echo GPIO_01 PULSE 500 > COM1
+```
+
 
 
 ## Project Status

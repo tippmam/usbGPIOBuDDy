@@ -26,12 +26,29 @@ Just plug it in and send human-readable commands.
 - Extensible command set
 
 
-## Example
+## Examples
 
-#### Syntax Example
+#### Syntax Examples
+
 ```
-GPIO_01 PULSE 500
+GPIO_02 ON
 ```
+```
+GPIO_02 OFF
+```
+```
+GPIO_02 TOGGLE
+```
+```
+GPIO_02 PULSE 500
+```
+```
+GPIO_02 PWM 50
+```
+```
+GPIO_02 SERVO 90
+```
+
 
 #### Console Command Example ( Mac-Terminal )
 
@@ -39,12 +56,12 @@ GPIO_01 PULSE 500
 echo GPIO_02 PULSE 500 > /dev/cu.usbmodem147201
 ```
 
+
 #### Console Command Example ( Windows cmd )
 
 ```
 echo GPIO_01 PULSE 500 > COM1
 ```
-
 
 
 ## Project Status
